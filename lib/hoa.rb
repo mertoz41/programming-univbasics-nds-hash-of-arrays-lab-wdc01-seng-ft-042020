@@ -13,7 +13,7 @@ BASE_HOA[:chipmunks],
 BASE_HOA[:third_earthers],
 BASE_HOA[:jetsons] 
 ]
-show << name
+show[key] << name
 return show
 
 
