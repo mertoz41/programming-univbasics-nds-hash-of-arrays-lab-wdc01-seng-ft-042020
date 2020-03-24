@@ -9,11 +9,11 @@ BASE_HOA = {
   
 def add_character(show, name)
 show = [
-BASE_HOA[:chipmunks],
-BASE_HOA[:third_earthers],
-BASE_HOA[:jetsons] 
+[:chipmunks]
+[:third_earthers]
+[:jetsons] 
 ]
-show[key] << name
+show << name
 return show
 
 
