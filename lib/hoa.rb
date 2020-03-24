@@ -13,7 +13,7 @@ show = [
 [:third_earthers],
 [:jetsons] 
 ]
-[key] << name
+hash[show] << name
 return show
 
 
