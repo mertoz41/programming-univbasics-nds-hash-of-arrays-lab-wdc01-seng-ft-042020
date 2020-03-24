@@ -13,7 +13,7 @@ show = [
 [:third_earthers],
 [:jetsons] 
 ]
-show << name
+show[:chipmunks][:third_earthers][:jetsons] << name
 return show
 
 
